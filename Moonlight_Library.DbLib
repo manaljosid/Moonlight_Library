@@ -19,7 +19,7 @@ LibrarySearchPath=
 OrcadMultiValueDelimiter=,
 SearchSubDirectories=1
 SchemaName=
-LastFocusedTable=ICs$
+LastFocusedTable=Inductors$
 [Table1]
 SchemaName=
 TableName=Capacitors Polar$
@@ -68,15 +68,15 @@ TableName=ICs$
 Enabled=True
 UserWhere=1
 UserWhereText=[Part Reference] = '{Part Reference}'
-BrowserOrder_Sorting=
-BrowserOrder_Grouping=
-BrowserOrder_Visible=Description0=408|Symbol Ref0=137|Footprint Ref0=107|Fitted0=53|Package Ref0=115|Part Reference0=137|Manufacturer0=169|Manufacturer Part No0=137|Supplier0=66|Supplier Part No0=149|Generic0=72|Specification0=89|Value0=52|Comments0=117|Type0=87|Ready for use0=93
 [Table9]
 SchemaName=
 TableName=Inductors$
 Enabled=True
 UserWhere=1
 UserWhereText=[Part Reference] = '{Part Reference}'
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=Description0=162|Symbol Ref0=80|Footprint Ref0=92|Fitted0=53|Package Ref0=91|Part Reference0=99|Manufacturer0=93|Manufacturer Part No0=134|Supplier0=66|Supplier Part No0=154|Generic0=72|Specification0=171|Value0=52|Comments0=106|Ready for use0=93
 [Table10]
 SchemaName=
 TableName=Miscellaneous$
@@ -206,68 +206,70 @@ Options=FieldName=Inductors$.Footprint Ref|TableNameOnly=Inductors$|FieldNameOnl
 [FieldMap40]
 Options=FieldName=Inductors$.Fitted|TableNameOnly=Inductors$|FieldNameOnly=Fitted|FieldType=1|ParameterName=Fitted|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=1
 [FieldMap41]
-Options=FieldName=Miscellaneous$.Symbol Ref|TableNameOnly=Miscellaneous$|FieldNameOnly=Symbol Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Inductors$.Value|TableNameOnly=Inductors$|FieldNameOnly=Value|FieldType=1|ParameterName=Value|VisibleOnAdd=True|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap42]
-Options=FieldName=Miscellaneous$.Footprint Ref|TableNameOnly=Miscellaneous$|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Miscellaneous$.Symbol Ref|TableNameOnly=Miscellaneous$|FieldNameOnly=Symbol Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap43]
-Options=FieldName=Miscellaneous$.Fitted|TableNameOnly=Miscellaneous$|FieldNameOnly=Fitted|FieldType=1|ParameterName=Fitted|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=1
+Options=FieldName=Miscellaneous$.Footprint Ref|TableNameOnly=Miscellaneous$|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap44]
-Options=FieldName=Miscellaneous$.Description|TableNameOnly=Miscellaneous$|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Miscellaneous$.Fitted|TableNameOnly=Miscellaneous$|FieldNameOnly=Fitted|FieldType=1|ParameterName=Fitted|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=1
 [FieldMap45]
-Options=FieldName=Modules$.Description|TableNameOnly=Modules$|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Miscellaneous$.Description|TableNameOnly=Miscellaneous$|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap46]
-Options=FieldName=Modules$.Symbol Ref|TableNameOnly=Modules$|FieldNameOnly=Symbol Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Modules$.Description|TableNameOnly=Modules$|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap47]
-Options=FieldName=Modules$.Footprint Ref|TableNameOnly=Modules$|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Modules$.Symbol Ref|TableNameOnly=Modules$|FieldNameOnly=Symbol Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap48]
-Options=FieldName=Modules$.Fitted|TableNameOnly=Modules$|FieldNameOnly=Fitted|FieldType=1|ParameterName=Fitted|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=1
+Options=FieldName=Modules$.Footprint Ref|TableNameOnly=Modules$|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap49]
-Options=FieldName=Non Electrical$.Description|TableNameOnly=Non Electrical$|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Modules$.Fitted|TableNameOnly=Modules$|FieldNameOnly=Fitted|FieldType=1|ParameterName=Fitted|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=1
 [FieldMap50]
-Options=FieldName=Non Electrical$.Symbol Ref|TableNameOnly=Non Electrical$|FieldNameOnly=Symbol Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Non Electrical$.Description|TableNameOnly=Non Electrical$|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap51]
-Options=FieldName=Non Electrical$.Footprint Ref|TableNameOnly=Non Electrical$|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Non Electrical$.Symbol Ref|TableNameOnly=Non Electrical$|FieldNameOnly=Symbol Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap52]
-Options=FieldName=Non Electrical$.Fitted|TableNameOnly=Non Electrical$|FieldNameOnly=Fitted|FieldType=1|ParameterName=Fitted|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=1
+Options=FieldName=Non Electrical$.Footprint Ref|TableNameOnly=Non Electrical$|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap53]
-Options=FieldName=Optoelectronic$.Symbol Ref|TableNameOnly=Optoelectronic$|FieldNameOnly=Symbol Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Non Electrical$.Fitted|TableNameOnly=Non Electrical$|FieldNameOnly=Fitted|FieldType=1|ParameterName=Fitted|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=1
 [FieldMap54]
-Options=FieldName=Optoelectronic$.Footprint Ref|TableNameOnly=Optoelectronic$|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Optoelectronic$.Symbol Ref|TableNameOnly=Optoelectronic$|FieldNameOnly=Symbol Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap55]
-Options=FieldName=Optoelectronic$.Fitted|TableNameOnly=Optoelectronic$|FieldNameOnly=Fitted|FieldType=1|ParameterName=Fitted|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=1
+Options=FieldName=Optoelectronic$.Footprint Ref|TableNameOnly=Optoelectronic$|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap56]
-Options=FieldName=Optoelectronic$.Description|TableNameOnly=Optoelectronic$|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Optoelectronic$.Fitted|TableNameOnly=Optoelectronic$|FieldNameOnly=Fitted|FieldType=1|ParameterName=Fitted|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=1
 [FieldMap57]
-Options=FieldName=Resistors Specialty$.Description|TableNameOnly=Resistors Specialty$|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Optoelectronic$.Description|TableNameOnly=Optoelectronic$|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap58]
-Options=FieldName=Resistors Specialty$.Symbol Ref|TableNameOnly=Resistors Specialty$|FieldNameOnly=Symbol Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Resistors Specialty$.Description|TableNameOnly=Resistors Specialty$|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap59]
-Options=FieldName=Resistors Specialty$.Footprint Ref|TableNameOnly=Resistors Specialty$|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Resistors Specialty$.Symbol Ref|TableNameOnly=Resistors Specialty$|FieldNameOnly=Symbol Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap60]
-Options=FieldName=Resistors Specialty$.Fitted|TableNameOnly=Resistors Specialty$|FieldNameOnly=Fitted|FieldType=1|ParameterName=Fitted|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=1
+Options=FieldName=Resistors Specialty$.Footprint Ref|TableNameOnly=Resistors Specialty$|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap61]
-Options=FieldName=Resistors$.Description|TableNameOnly=Resistors$|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Resistors Specialty$.Fitted|TableNameOnly=Resistors Specialty$|FieldNameOnly=Fitted|FieldType=1|ParameterName=Fitted|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=1
 [FieldMap62]
-Options=FieldName=Resistors$.Symbol Ref|TableNameOnly=Resistors$|FieldNameOnly=Symbol Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Resistors$.Description|TableNameOnly=Resistors$|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap63]
-Options=FieldName=Resistors$.Footprint Ref|TableNameOnly=Resistors$|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Resistors$.Symbol Ref|TableNameOnly=Resistors$|FieldNameOnly=Symbol Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap64]
-Options=FieldName=Resistors$.Fitted|TableNameOnly=Resistors$|FieldNameOnly=Fitted|FieldType=1|ParameterName=Fitted|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=1
+Options=FieldName=Resistors$.Footprint Ref|TableNameOnly=Resistors$|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap65]
-Options=FieldName=Resistors$.Value|TableNameOnly=Resistors$|FieldNameOnly=Value|FieldType=1|ParameterName=Value|VisibleOnAdd=True|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Resistors$.Fitted|TableNameOnly=Resistors$|FieldNameOnly=Fitted|FieldType=1|ParameterName=Fitted|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=1
 [FieldMap66]
-Options=FieldName=Transistors BJT$.Description|TableNameOnly=Transistors BJT$|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Resistors$.Value|TableNameOnly=Resistors$|FieldNameOnly=Value|FieldType=1|ParameterName=Value|VisibleOnAdd=True|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap67]
-Options=FieldName=Transistors BJT$.Symbol Ref|TableNameOnly=Transistors BJT$|FieldNameOnly=Symbol Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Transistors BJT$.Description|TableNameOnly=Transistors BJT$|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap68]
-Options=FieldName=Transistors BJT$.Footprint Ref|TableNameOnly=Transistors BJT$|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Transistors BJT$.Symbol Ref|TableNameOnly=Transistors BJT$|FieldNameOnly=Symbol Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap69]
-Options=FieldName=Transistors BJT$.Fitted|TableNameOnly=Transistors BJT$|FieldNameOnly=Fitted|FieldType=1|ParameterName=Fitted|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=1
+Options=FieldName=Transistors BJT$.Footprint Ref|TableNameOnly=Transistors BJT$|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap70]
-Options=FieldName=Transistors FET$.Description|TableNameOnly=Transistors FET$|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Transistors BJT$.Fitted|TableNameOnly=Transistors BJT$|FieldNameOnly=Fitted|FieldType=1|ParameterName=Fitted|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=1
 [FieldMap71]
-Options=FieldName=Transistors FET$.Symbol Ref|TableNameOnly=Transistors FET$|FieldNameOnly=Symbol Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Transistors FET$.Description|TableNameOnly=Transistors FET$|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap72]
-Options=FieldName=Transistors FET$.Footprint Ref|TableNameOnly=Transistors FET$|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Transistors FET$.Symbol Ref|TableNameOnly=Transistors FET$|FieldNameOnly=Symbol Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap73]
+Options=FieldName=Transistors FET$.Footprint Ref|TableNameOnly=Transistors FET$|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap74]
 Options=FieldName=Transistors FET$.Fitted|TableNameOnly=Transistors FET$|FieldNameOnly=Fitted|FieldType=1|ParameterName=Fitted|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=1
