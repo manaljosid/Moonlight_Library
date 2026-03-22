@@ -1,1 +1,6 @@
+# Unwanted files
+*.SchLib.Zip
+*.PcbLib.Zip
+
+# History
 History/
